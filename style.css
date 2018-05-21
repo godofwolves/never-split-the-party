@@ -1,4 +1,3 @@
-
 body{
 	height:100vh;
 	width:100vw;
@@ -16,7 +15,6 @@ body{
 .ac{
 	height:10%;
 	width:33%;
-	background-color:purple;
 	display:flex;
 	color:orange;
 
@@ -24,7 +22,6 @@ body{
 .dc{
 	height:10%;
 	width:34%;
-	background-color:purple;
 	display:flex;
 	color:orange;
 
@@ -33,7 +30,6 @@ body{
 .cd{
 	height:10%;
 	width:33%;
-	background-color:purple;
 	display:flex;
 	color:orange;
 
@@ -42,43 +38,41 @@ body{
 .silver{
 	height:35%;
 	width:100%;
-	background-color:limegreen;
 	display:flex;
 }
 .red{
 	height:20%;
 	width:100%;
-	background-color:red;
+	background-image: url("imagess/dd.png");
 	display:flex;
 }
 .mouse{
 	height:35%;
 	width:100%;
-	background-color:green;
 	display:flex;
 }
 .col1{
 	height:100%;
 	width:50%;
-	background-color:pink;
+	background-image: url("imagess/armor.png");
 	display:flex;
 }
 .col2{
 	height:100%;
 	width:50%;
-	background-color:brown;
+	background-image: url("imagess/weapons.jpeg");
 	display:flex;
 }
 .col3{
 	height:100%;
 	width:50%;
-	background-color:blue;
+	background-image: url("imagess/coin.png");
 	display:flex;
 }
 .col4{
 	height:100%;
 	width:50%;
-	background-color:lightblue;
+	background-image: url("imagess/military.png");
 	display:flex;
 }
 @media screen and (max-width: 700px){
@@ -99,7 +93,6 @@ body{
 .ac{
 	height:33%;
 	width:100%;
-	background-color:purple;
 	display:block;
 	color:orange;
 
@@ -107,7 +100,6 @@ body{
 .dc{
 	height:34%;
 	width:100%;
-	background-color:purple;
 	display:block;
 	color:orange;
 
@@ -116,7 +108,6 @@ body{
 .cd{
 	height:33%;
 	width:100%;
-	background-color:purple;
 	display:block;
 	color:orange;
 
@@ -125,53 +116,42 @@ body{
 .silver{
 	height:35%;
 	width:100%;
-	background-color:limegreen;
 	display:block;
 }
 .red{
 	height:20%;
 	width:100%;
-	background-color:red;
-	display:block;
+	background-image: url("imagess/dd.png");
+	display:block;	
 }
 .mouse{
 	height:35%;
 	width:100%;
-	background-color:green;
 	display:block;
 }
 .col1{
 	height:50%;
 	width:100%;
-	background-color:pink;
+	background-image: url("imagess/armor.png");
 	display:block;
 }
 .col2{
 	height:50%;
 	width:100%;
-	background-color:brown;
+	background-image: url("imagess/weapons.jpeg");
 	display:block;
 }
 .col3{
 	height:50%;
 	width:100%;
-	background-color:blue;
+	background-image: url("imagess/coin.png");
 	display:block;
 }
 .col4{
 	height:100%;
 	width:100%;
-	background-color:lightblue;
+	background-image: url("imagess/military.png");
 	display:block;
 }
-
-
-
-
-
-
-
-
-
 
 
