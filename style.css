@@ -17,14 +17,14 @@ body{
 	width:33%;
 	display:flex;
 	color:orange;
-
 }
 .dc{
 	height:10%;
 	width:34%;
 	display:flex;
 	color:orange;
-
+    justify-content: center;
+	align-items: center;
 }
 
 .cd{
@@ -43,8 +43,9 @@ body{
 .red{
 	height:20%;
 	width:100%;
-	background-image: url("imagess/dd.png");
 	display:flex;
+	justify-content: center;
+	align-items: center;
 }
 .mouse{
 	height:35%;
@@ -54,26 +55,34 @@ body{
 .col1{
 	height:100%;
 	width:50%;
-	background-image: url("imagess/Medieva.jpg");
 	display:flex;
+	background-color:#3b74ce;
+	justify-content: center;
+	align-items: center;
 }
 .col2{
 	height:100%;
 	width:50%;
-	background-image: url("imagess/weapons.jpeg");
 	display:flex;
+	background-color:#475368;
+	justify-content: center;
+	align-items: center;
 }
 .col3{
 	height:100%;
 	width:50%;
-	background-image: url("imagess/coinss.jpg");
 	display:flex;
+	background-color:#d3521b;
+	justify-content: center;
+	align-items: center;
 }
 .col4{
 	height:100%;
 	width:50%;
-	background-image: url("imagess/cartt.jpg");
 	display:flex;
+	background-color:#40d31b;
+	justify-content: center;
+	align-items: center;
 }
 @media screen and (max-width: 700px){
 	
@@ -95,14 +104,12 @@ body{
 	width:100%;
 	display:block;
 	color:orange;
-
 }
 .dc{
 	height:34%;
 	width:100%;
 	display:block;
 	color:orange;
-
 }
 
 .cd{
@@ -110,18 +117,17 @@ body{
 	width:100%;
 	display:block;
 	color:orange;
-
 }
 
 .silver{
 	height:35%;
 	width:100%;
 	display:block;
-}
+	background-color:;
+	}
+
 .red{
-	height:20%;
 	width:100%;
-	background-image: url("imagess/dd.png");
 	display:block;	
 }
 .mouse{
@@ -130,27 +136,23 @@ body{
 	display:block;
 }
 .col1{
-	height:50%;
 	width:100%;
-	background-image: url("imagess/Medieva.jpg");
 	display:block;
+	background-color:#3b74ce;
 }
 .col2{
-	height:50%;
 	width:100%;
-	background-image: url("imagess/weapons.jpeg");
 	display:block;
+	background-color:#475368;
 }
 .col3{
-	height:50%;
 	width:100%;
-	background-image: url("imagess/coinss.jpg");
 	display:block;
+	background-color:#d3521b;
 }
 .col4{
-	height:100%;
 	width:100%;
-	background-image: url("imagess/cartt.jpg");
 	display:block;
+	background-color:#40d31b;
 }
 
